@@ -41,7 +41,7 @@ function checkBoard(){
         const square3 = squares[winningArrays[y][2]]
         const square4 = squares[winningArrays[y][3]]
 
-        //now check those arrays to see if they all have the class of player - one
+        //now check those arrays to see  if they all have the class of player - one
         if( square1.classList.contains('player-one') &&
             square2.classList.contains('player-one') &&
             square3.classList.contains('player-one') &&
